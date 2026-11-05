@@ -1,0 +1,30 @@
+# .gitignore for Product Recommendation System
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Raw Datasets (Download from Kaggle / RetailRocket: item_properties & raw events)
+# Keep events.csv and item_properties outside git due to GitHub 100MB file limit
+item_properties_part1.csv
+item_properties_part2.csv
+*.zip
+*.tar.gz
+
+# Environments
+env/
+venv/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db

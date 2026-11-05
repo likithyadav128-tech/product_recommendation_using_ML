@@ -1,0 +1,13 @@
+PRODUCT RECOMMENDATION SYSTEM REPORT
+=============================================
+
+Original usable records: 2756101
+Users used: 3000
+Items used: 283
+Evaluated users: 3000
+
+           Model  Hit Rate  Precision@10  Recall@10
+Popularity-Based  0.112333      0.011233   0.112333
+ Item Similarity  0.331333      0.033133   0.331333
+
+Evaluation uses a held-out interaction per eligible user. Metrics depend on the dataset and selected items.
